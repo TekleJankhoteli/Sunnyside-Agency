@@ -1,0 +1,242 @@
+@media screen and (min-width: 1400px){
+    header{display: flex;
+        /* flex-direction: column; */
+        background-image: url(./assets/deskheaderbg.png);
+        background-size: cover;
+        width: 100%;}
+
+        .burgerbardesk{
+            width: 100%;
+            display: block;
+            flex-direction: row;
+            justify-content: space-between;
+            align-content: space-between;
+            padding-left: 10%;
+            padding-right: 20%;
+            margin-top: 50px;
+         
+
+           
+           
+        }
+
+        .fordeskmeniu{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            
+        }
+       .meniuu{
+        display: flex;
+        flex-direction: row;
+        
+       }
+
+       .meniuu ul{
+        display: flex;
+        justify-content: space-between;
+        align-content: space-between;
+        gap: 20%;
+        list-style: none;
+        align-items: center;
+        
+        
+        
+       }
+    
+       ul li a {
+        text-decoration: none;
+        color:white;
+        font-size: 18px;
+        font-weight: 600;
+        font-family:'Barlow' ;
+    }
+
+    ul button{
+        width: 140px;
+        height: 56px;
+        background-color: white;
+        border-radius: 28px;
+        font-size: 15px;
+        font-weight: 700;
+        color: #24303E;
+        font-family:'Fraunces' ;
+        border: none;
+    }
+    ul button:hover{
+        cursor: pointer;
+        transition: 1s;
+        background-color:rgb(109, 211, 241) ;
+        color: white;
+    }
+
+
+    .textandarrow{
+        margin-bottom: 300px;
+    }
+
+
+
+    main{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+       
+    }
+
+    .agg{
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+        
+        
+    }
+   
+    .deskagg{
+       display: block;
+       width: 50%;
+       background-image: url(./assets/deskegg.png);
+       background-size:cover;
+       
+       
+        
+       }
+
+       .aggtexts{
+        display:flex ;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        gap: 25px;
+        width: 50%;
+        padding-left: 12%;
+        padding-right: 5%;
+    }
+   
+    .aggtexts h2{
+       
+        font-size: 40px;
+        text-align:start
+        
+    }
+
+    .aggtexts p{
+     
+        
+        text-align:start;
+       
+    }
+      
+    .cup{
+        display: flex;
+        align-items: center;
+    }
+
+
+   
+       .deskcup{
+        display: block;
+       width: 50%;
+       background-image: url(./assets/deskcup.png);
+       background-repeat: no-repeat;
+       background-size:cover;
+
+       
+     
+       }
+
+
+
+       section{
+        display: flex;
+        width: 100%;
+       }
+
+       .sectioncherry{
+        background-image: url(./assets/deskchery.png);
+       background-repeat: no-repeat;
+       background-size: cover;
+       background-position: center;
+       width: 50%;
+       
+      
+
+        
+       
+    }
+    .sectionmandarini{
+        background-image: url(./assets/desktangarin.png);
+        background-repeat: no-repeat;
+        background-size:cover;
+        width: 50%;
+
+        
+    }
+
+    .sectiontexts{
+        display: flex;
+     padding-left: 25%;
+     padding-right: 25%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+       
+        
+    }
+
+
+
+    .section2{
+        width: 100%;
+        display: flex;
+        flex-direction:column;
+        margin-top: 120px;
+    }
+     
+
+    .section2boxtexts{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-left: 15%;
+        padding-right: 15%;
+    
+    }
+
+  .forsection2desk{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+.section3desk{
+    display: block;
+    width: 100%;
+height: 447px;
+   background-repeat: no-repeat;
+   background-size:100%;
+    background-image: url(./assets/desksec3.png);
+}
+
+
+
+
+footer{
+    
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+}
+ 
+.section3{display: none;}
+
+       .burgerbar{
+        display: none;
+       }
+
+  .aggimg{
+    display: none;
+  }
+}

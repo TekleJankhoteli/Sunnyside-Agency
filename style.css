@@ -1,0 +1,379 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Barlow:wght@600&family=Fraunces:wght@700;900&display=swap');
+
+  *,*::after,
+    *::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    
+}
+header{display: flex;
+    flex-direction: column;
+    background-image: url(./assets/mobheaderBG.svg);
+    background-repeat: no-repeat;
+    width: 375px;
+    
+    
+    
+}
+.burgerbar{
+    display: flex;
+ justify-content: space-between;
+ position: relative;
+ margin-top: 35px;
+ padding-left: 30px;
+ padding-right: 30px;
+
+    
+}
+
+.burgermeniu{
+    display: none;
+    justify-content: center;
+    background-color:#fff3e3ec;
+    position: absolute;
+    top: 40px;
+    left: 70px;
+    width:270px ;
+    height: 270px;
+    
+}
+
+.menu { 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    list-style-type: none;
+  
+    
+ 
+}
+
+
+
+.menu li a {
+    text-decoration: none;
+    color:#808397;
+    font-size: 20px;
+    font-weight: 600;
+    font-family:'Barlow' ;
+}
+.menu button{
+    width: 140px;
+    height: 56px;
+    background-color: #FBD600;
+    border-radius: 28px;
+    font-size: 15px;
+    font-weight: 700;
+    color: #24303E;
+    font-family:'Fraunces' ;
+    border: none;
+}
+
+.textandarrow {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+   
+    
+}
+
+.textandarrow h1{
+    color: rgba(255, 255, 255, 1);
+    font-family:'Fraunces' ;
+    font-weight: 900;
+    font-size: 40px;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 6.25px;
+    margin-bottom: 80px;
+    margin-top: 150px;
+}
+.textandarrow img{
+    margin-bottom: 30px;
+}
+main{
+    width: 375px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+}
+
+.aggtexts{
+    display:flex ;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    padding-left: 25px;
+    padding-right: 25px;
+    margin-top: 35px;
+    margin-bottom:35px ;
+    gap: 25px;
+}
+.aggtexts h2{
+    font-family:'Fraunces' ;
+    font-weight: 900;
+    font-size: 32px;
+    text-align: center;
+    color: #24303E;
+}
+.aggtexts p{
+    font-family:'Barlow' ;
+    font-weight: 600;
+    font-size: 18px;
+    text-align: center;
+    color: #808397;
+    line-height: 30px; 
+}
+
+.aggtexts h3{
+    font-family:'Fraunces' ;
+    font-weight: 900;
+    font-size: 15px;
+    text-align: center;
+    color: #24303E;
+    background-image: url(./assets/yellowborder.png);
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    
+}
+
+.aggtexts h3:hover{
+    cursor: pointer;
+    filter: sepia(80%) saturate(2000%) brightness(150%);
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+    transition: 1s;
+}
+
+
+.cup h4{
+    font-family:'Fraunces' ;
+    font-weight: 900;
+    font-size: 15px;
+    text-align: center;
+    color: #24303E;
+    background-image: url(./assets/pinkborder.svg);
+    background-position: center bottom;
+    background-repeat: no-repeat;
+}
+.cup h4:hover{
+    cursor: pointer;
+    filter: sepia(80%) saturate(2000%) brightness(150%);
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+    transition: 1s;
+}
+
+section{
+    width: 375px;
+    
+}
+
+.sectioncherry{
+    background-image: url(./assets/mobcherry.svg);
+    
+   
+}
+
+.sectiontexts{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+   
+    
+}
+
+.sectiontexts h2{
+    font-family:'Fraunces' ;
+    font-weight: 900;
+    font-size: 28px;
+    text-align: center;
+    color: #24554A;
+    margin-top: 400px;
+    margin-bottom: 20px;
+  
+}
+.sectiontexts p{
+    font-family:'Barlow' ;
+    font-weight: 600;
+    font-size: 16px;
+    text-align: center;
+    color: #24554A;
+    line-height: 27px;
+    margin-bottom: 60px;
+}
+
+.sectionmandarini{
+    background-image: url(./assets/mobtangarin.svg);
+}
+
+
+.section2{
+    width: 375px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    margin-top: 50px;
+}
+.testiomonials h5{
+    font-family:'Fraunces' ;
+    font-weight: 900;
+    font-size: 16px;
+    letter-spacing: 4px;
+    text-align: center;
+    color: #A7AAAD;
+}
+.section2img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom:30px ;
+    margin-top: 50px;
+    
+}
+
+.section2boxtexts{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 25px;
+    padding-right: 25px;
+
+}
+
+.section2boxtexts h2{
+    color: #5B636D;
+text-align: center;
+font-size: 18px;
+font-family:'Barlow' ;
+font-weight: 600;
+line-height: 32px;
+margin-bottom: 30px;
+
+}
+.section2boxnames{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+}
+
+.section2boxnames h3{
+color: #24303E;
+text-align: center;
+font-size: 18px;
+font-family:'Fraunces' ;
+font-weight: 900;
+}
+.section2boxnames p{
+    color: #A7AAAD;
+    text-align: center;
+    font-size: 14px;
+    font-family:'Barlow' ;
+    font-weight: 600;
+    line-height: 25px;
+    margin-bottom: 60px;
+    }
+
+    .section3{
+        width: 375px;
+        display: flex;
+    }
+    .section3imgs{
+        display: flex;
+        flex-direction: column;
+    }
+
+    footer{
+        background-color: rgba(144, 212, 198, 1);
+        width: 375px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        align-content: center;
+    }
+
+    .footerlogo{
+        margin-top: 60px;
+        margin-bottom: 50px;
+    }
+
+    .footerlinks{
+        display: flex;
+       gap: 60px;
+       margin-bottom: 70px;
+    }
+
+    .footerlinks a{
+        text-decoration: none;
+        font-family:'Barlow' ;
+        font-size: 18px;
+        font-weight: 600;
+        color: #458D7E;
+    }
+
+
+    .footerlinks a:hover{
+        cursor: pointer;
+        transition: 1s;
+        color: white;
+    }
+    .social{
+        display: flex;
+        gap: 30px;
+        margin-bottom: 60px;
+    }
+
+
+    .fb:hover path {
+        fill: white;
+        cursor: pointer;
+        
+      }
+
+      .insta:hover path {
+        fill: white;
+        cursor: pointer;
+        
+      }
+
+      .tw:hover path {
+        fill: white;
+        cursor: pointer;
+        
+      }
+
+      .pr:hover path {
+        fill: white;
+        cursor: pointer;
+        
+      }
+
+    .burgerbardesk{
+        display: none;
+    }
+   .deskagg{
+    display: none;
+   }
+   .deskcup{
+    display: none;
+   }
+   .section3desk{
+    display: none;
+   }
